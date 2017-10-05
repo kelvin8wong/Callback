@@ -7,9 +7,9 @@ var names = ["Alice", "Bob", "Waldo", "Winston"];
 //     }
 // }
 function findWaldo(arr, found) {
-  arr.forEach(function(name, i) {
+  arr.forEach(function(name, position) {
     if (name === "Waldo"){
-      found(i);
+      found(position);
     }
   });
 }
